@@ -1,0 +1,6 @@
+[build-system]
+requires = ["python >=3.0"]
+[project]
+name = "YarnLang"
+authors = [{name = "Aspekts", email = "aspekts@yarndev.co.uk"}]
+dynamic = ["version", "description"]

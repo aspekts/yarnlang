@@ -8,6 +8,7 @@ TT_LPAREN   = 'LPAREN'
 TT_RPAREN   = 'RPAREN'
 TT_EOF      = 'EOF'
 DIGITS="0123456789" # Digit Constants
+# This class is used to create tokens for the lexer.
 class Token:
     def __init__(self,type_,value=None,pos_start=None,pos_end=None):
         self.type = type_
